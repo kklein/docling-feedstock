@@ -27,6 +27,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-docling-green.svg)](https://anaconda.org/conda-forge/docling) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/docling.svg)](https://anaconda.org/conda-forge/docling) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/docling.svg)](https://anaconda.org/conda-forge/docling) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/docling.svg)](https://anaconda.org/conda-forge/docling) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-docling--slim-green.svg)](https://anaconda.org/conda-forge/docling-slim) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/docling-slim.svg)](https://anaconda.org/conda-forge/docling-slim) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/docling-slim.svg)](https://anaconda.org/conda-forge/docling-slim) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/docling-slim.svg)](https://anaconda.org/conda-forge/docling-slim) |
 
 Installing docling
 ==================
@@ -38,16 +39,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `docling` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `docling, docling-slim` can be installed with `conda`:
 
 ```
-conda install docling
+conda install docling docling-slim
 ```
 
 or with `mamba`:
 
 ```
-mamba install docling
+mamba install docling docling-slim
 ```
 
 It is possible to list all of the versions of `docling` available on your platform with `conda`:
