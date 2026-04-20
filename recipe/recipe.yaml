@@ -14,13 +14,13 @@ source:
   sha256: a5fbc7520ece4705a7416fd7d00583855a640bea823bef6d326bda8621791b35
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - package:
       name: ${{ name }}-slim
     build:
-      number: 0
+      number: 1
       noarch: python
       script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
       python:
@@ -51,7 +51,7 @@ outputs:
   - package:
       name: ${{ name }}
     build:
-      number: 0
+      number: 1
       noarch: python
     requirements:
       host:
